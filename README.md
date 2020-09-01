@@ -130,3 +130,6 @@ This will show that MongoDB is installed and run successfully. Next time when yo
 C:\Program Files\MongoDB\Server\4.2\bin>mongod.exe --dbpath "C:\data"
 C:\Program Files\MongoDB\Server\4.2\bin>mongo.exe
 ```
+<p>
+  Get in touch with me on: <a href='mailto:bvenceslas@gmail.com'>bvenceslas@gmail.com</a>
+</p>
