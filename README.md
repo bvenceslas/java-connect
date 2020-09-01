@@ -131,6 +131,27 @@ This will show that MongoDB is installed and run successfully. Next time when yo
 C:\Program Files\MongoDB\Server\4.2\bin>mongod.exe --dbpath "C:\data"
 C:\Program Files\MongoDB\Server\4.2\bin>mongo.exe
 ```
+
+## Getting Started
+
+The project is public.
+
+## Authors
+
+👤 **Venceslas Burongu Josh**
+
+- Github: @bvenceslas(https://github.com/bvenceslas)
+- Twitter: [@bvenceslas](https://twitter.com/bvenceslas)
+- Linkedin: [linkedin](https://www.linkedin.com/in/venceslas-burongu-8271b519a/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
 <p>
   Get in touch with me on: <a href='mailto:bvenceslas@gmail.com'>bvenceslas@gmail.com</a>
 </p>
