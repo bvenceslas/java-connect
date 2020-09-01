@@ -84,7 +84,7 @@ public class Db_PostgreSQL {
 ```
 # NOSQL DATABASES
 
-## Install MongoDB On Windows
+## Example on MongoDB using Windows OS
 
 ### Connecting to a MongoDb database
 
