@@ -7,6 +7,7 @@ How to connect different db to a java program
 
 When you're working offline, almost all the **mysql databases** are connected in the same way from java program,
 here is a general class syntax to do that:
+
 ```
 public class Db_Mysql {
     static String username = "root";
@@ -20,6 +21,7 @@ public class Db_Mysql {
         return conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/"+database, username, password);
     }
 }
+
 ```
 for that, you need to add a **mysql-driver** in your project,
 you can find it in library of project or you download a jar for that ()[]
@@ -39,6 +41,7 @@ public class DbSqlite {
         return conn = DriverManager.getConnection(url);
     }
 }
+
 ```
 
 **src/db_pack/db_try.sqlite** is the path to the database which is inside the project
@@ -77,6 +80,7 @@ public class Db_PostgreSQL {
         return conn = DriverManager.getConnection(url, username, password);
     }
 }
+
 ```
 # NOSQL DATABASES
 
@@ -94,9 +98,9 @@ To connect your java program to a MongoDb database you need to follow up this pr
 
 > MongoDB requires a data folder to store its files. The default location for the MongoDB data directory is "c:\data\db". So you need to create this folder using the Command Prompt. Execute the following command sequence.
 
-    ```
-    mkdir C:\data\db
-    ```
+```
+mkdir C:\data\db
+```
     
 > Then you need to specify set the dbpath to the created directory in mongod.exe. For the same, issue the following commands.
 
