@@ -61,6 +61,7 @@ public class Db_SqlServer {
 }
 ```
 
+**Note**: *DESKTOP-2SIGCPD\\BRAINSERVER* is the server name as we use localhost for mysql when connection in local concept 
 
 ### Connecting to a postGreSQL database
 
